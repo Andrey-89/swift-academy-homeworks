@@ -45,11 +45,12 @@ h6 a:link {
     font-weight: 900;
 }
 #panelTitle,
-#panelTitleonVote {
+#panelTitleonVote,
+#ourLocation{
     font-family: 'Black Ops One', cursive;
     font-size: 22px;
 }
-#ourLocation,
+
 .home,
 #aboutNav,
 #contactNav,
@@ -123,6 +124,7 @@ a {
 #aboutUs {
     background-color: aliceblue;
     text-align: center;
+    
 }
 #feature-carousel {
     min-height: 200px;

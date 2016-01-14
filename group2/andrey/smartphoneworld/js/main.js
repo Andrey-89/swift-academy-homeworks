@@ -64,7 +64,6 @@ $(document).on("ready", function () {
                             $(window).resize(function () {
 
                                 if ($(window).width() < 750) {
-
                                     $("#sidebar").stickyfloat('destroy');
 
                                 } else {
