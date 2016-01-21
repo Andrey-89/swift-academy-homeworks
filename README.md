@@ -1,3 +1,3 @@
-# Swift Academy Homeworks
+# Project SmartphoneWorld
 
-This is the official homeworks' repository for the Swift Academy's 'Front-end Development' course
+This is my first website, developed as a final project from my Front-End Development Course.
