@@ -7,6 +7,7 @@ $(document).on("ready", function () {
             active: false,
             heightStyle: "content"
         });
+// Panel slider        
         $(".navbar").show("blind", 500, function () {
             $(".jumbotron").show("fade", 500, function () {
                 $(function () {
@@ -25,7 +26,7 @@ $(document).on("ready", function () {
                                     }
                                 }
                             });
-
+// Navigation panel buttons
                             $("#mySearch").click(function () {
                                 $("#center, #windowsCenter, #iosCenter, #androidCenter").hide();
                                 $('.huaweiDetails, .galaxys6Details,.lgDetails,.sonyDetails,.xiaomiDetails,.lumia950Details,.lumia550Details,.lumia640Details,.iphone6sDetails,.iphone6Details,.iphone5Details').hide();
@@ -60,7 +61,7 @@ $(document).on("ready", function () {
                                     $("#filter-count").text("Number of Comments = " + count);
                                 });
                             });
-
+// Blocks sticky sidebar on small windows
                             $(window).resize(function () {
 
                                 if ($(window).width() < 750) {
@@ -75,7 +76,7 @@ $(document).on("ready", function () {
                                 }
 
                             });
-
+// Gallery plugin
                             $(".fancybox-thumb").fancybox({
                                 prevEffect: 'none',
                                 nextEffect: 'none',
@@ -168,7 +169,7 @@ $(document).on("ready", function () {
                                     scrollTop: $("#stats").offset().top - 70
                                 }, 800);
                             });
-
+// Sidebar dropdown buttons
                             $("#android").click(function () {
 
                                 $("#windowsCenter, #iosCenter, #center, #allPhonesCenter").hide();
@@ -327,7 +328,7 @@ $(document).on("ready", function () {
                             });
 
                             $(window).resize(); // trigger the resize event in order to set footer position
-
+// Login panel functions
                             $("#loginButton").click(function loginValidator() {
 
                                 var name = $('#uid').val();
@@ -357,7 +358,7 @@ $(document).on("ready", function () {
                                 $("#loginButton,.form-control").fadeIn();
 
                             });
-
+// Functions for validating the contact form
                             function notEmpty(elem, helperMsg) {
                                 if (elem.value.length == 0) {
                                     alert(helperMsg);
